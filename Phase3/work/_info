@@ -1,0 +1,1005 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ashto/ECE552/Project/Phase2
+vALU
+Z1 !s110 1746159063
+!i10b 1
+!s100 H[UoDdF[jgo1Q6]LKZ]^z0
+IEg0Wo3BNGJ?a[jMF3mf?T1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1745435713
+Z4 8C:/Users/ashto/ECE552/Project/Phase2/alu.v
+Z5 FC:/Users/ashto/ECE552/Project/Phase2/alu.v
+Z6 L0 11
+Z7 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z8 !s108 1746159063.000000
+Z9 !s107 C:/Users/ashto/ECE552/Project/Phase2/alu.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/alu.v|
+!i113 1
+Z11 o-work work
+n@a@l@u
+vBitCell
+Z12 !s110 1746159065
+!i10b 1
+!s100 0m4iVbI;_V^H2iz;C9HGO3
+I0;U[k:9bS^VT[9C]IPIE72
+R2
+R0
+Z13 w1746128080
+Z14 8C:/Users/ashto/ECE552/Project/Phase2/regfile.v
+Z15 FC:/Users/ashto/ECE552/Project/Phase2/regfile.v
+L0 45
+R7
+r1
+!s85 0
+31
+Z16 !s108 1746159065.000000
+Z17 !s107 C:/Users/ashto/ECE552/Project/Phase2/regfile.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/regfile.v|
+!i113 1
+R11
+n@bit@cell
+vBlock
+Z19 !s110 1746159064
+!i10b 1
+!s100 >=A9@Vi>n<]`WS86Na5dR1
+IHWOFUz:o1CHn=iKj]=39P1
+R2
+R0
+Z20 w1746057397
+Z21 8C:/Users/ashto/ECE552/Project/Phase2/DataArray.v
+Z22 FC:/Users/ashto/ECE552/Project/Phase2/DataArray.v
+R6
+R7
+r1
+!s85 0
+31
+Z23 !s108 1746159064.000000
+Z24 !s107 C:/Users/ashto/ECE552/Project/Phase2/DataArray.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/DataArray.v|
+!i113 1
+R11
+n@block
+vcache_fill_FSM
+Z26 !s110 1746159066
+!i10b 1
+!s100 2jHhE>N;TS<2Cl0offj6d0
+IgU^Q2Fe7:_KB=VKCKSi4_0
+R2
+R0
+R20
+8C:/Users/ashto/ECE552/Project/Phase2/CacheController.v
+FC:/Users/ashto/ECE552/Project/Phase2/CacheController.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z27 !s108 1746159066.000000
+!s107 C:/Users/ashto/ECE552/Project/Phase2/CacheController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/CacheController.v|
+!i113 1
+R11
+ncache_fill_@f@s@m
+vcla_16bit
+R1
+!i10b 1
+!s100 J5E1;THW39U>3n]?fU_[T2
+Io5AU;S]jmN9_UYCT4F9KC3
+R2
+R0
+Z28 w1746137227
+Z29 8C:/Users/ashto/ECE552/Project/Phase2/cla_adder.v
+Z30 FC:/Users/ashto/ECE552/Project/Phase2/cla_adder.v
+L0 20
+R7
+r1
+!s85 0
+31
+R8
+Z31 !s107 C:/Users/ashto/ECE552/Project/Phase2/cla_adder.v|
+Z32 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/cla_adder.v|
+!i113 1
+R11
+vcla_16bit_nonSAT
+R1
+!i10b 1
+!s100 ?mZgzN9NaZGm0l5KJ17aS0
+I>J_aifD:im;z3I[8JOEL_0
+R2
+R0
+R28
+R29
+R30
+L0 8
+R7
+r1
+!s85 0
+31
+R8
+R31
+R32
+!i113 1
+R11
+ncla_16bit_non@s@a@t
+vcla_4bit
+R1
+!i10b 1
+!s100 88ESLA3ZM@CAb9nWYlbFi2
+ImGCd3`b:JG6?n4ZEgCXEf2
+R2
+R0
+R28
+R29
+R30
+L0 39
+R7
+r1
+!s85 0
+31
+R8
+R31
+R32
+!i113 1
+R11
+vcla_4bit_sat
+R1
+!i10b 1
+!s100 PZaHa@__F?:B[BL>C_;eF3
+IHEBb0o=FlRY=8K`jZWL?10
+R2
+R0
+R28
+R29
+R30
+L0 57
+R7
+r1
+!s85 0
+31
+R8
+R31
+R32
+!i113 1
+R11
+vcontrol
+R19
+!i10b 1
+!s100 25Ke5Si_WdnoW;oG:mXNM0
+IZd?3jgMC^ndCET_=PFl4e3
+R2
+R0
+Z33 w1746151156
+Z34 8C:/Users/ashto/ECE552/Project/Phase2/ID.v
+Z35 FC:/Users/ashto/ECE552/Project/Phase2/ID.v
+L0 115
+R7
+r1
+!s85 0
+31
+R23
+Z36 !s107 C:/Users/ashto/ECE552/Project/Phase2/ID.v|
+Z37 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/ID.v|
+!i113 1
+R11
+vcpu
+R1
+!i10b 1
+!s100 oj2g:1DHCLg7HjiUTohMo1
+IT_ZSzUElQ7HOGO6Lzl7H81
+R2
+R0
+w1746158563
+8C:/Users/ashto/ECE552/Project/Phase2/cpu.v
+FC:/Users/ashto/ECE552/Project/Phase2/cpu.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/ashto/ECE552/Project/Phase2/cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/cpu.v|
+!i113 1
+R11
+vcpu_ptb
+R12
+!i10b 1
+!s100 dbj6jVhZ>e`kFUSgQ8aHa2
+Iz_M:8@X7E5CiS^:nD@1Zj1
+R2
+R0
+w1746131879
+8C:/Users/ashto/ECE552/Project/Phase2/project-phase3-testbench.v
+FC:/Users/ashto/ECE552/Project/Phase2/project-phase3-testbench.v
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ashto/ECE552/Project/Phase2/project-phase3-testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/project-phase3-testbench.v|
+!i113 1
+R11
+vd_cache
+R12
+!i10b 1
+!s100 og]Ed9XC;n]D_3CU1BG2g2
+IW0oTJ2FYiZQjAIDWD:X<:3
+R2
+R0
+Z38 w1746153203
+Z39 8C:/Users/ashto/ECE552/Project/Phase2/MEM.v
+Z40 FC:/Users/ashto/ECE552/Project/Phase2/MEM.v
+L0 37
+R7
+r1
+!s85 0
+31
+R16
+Z41 !s107 C:/Users/ashto/ECE552/Project/Phase2/MEM.v|
+Z42 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/MEM.v|
+!i113 1
+R11
+vDataArray
+R19
+!i10b 1
+!s100 N?]IT^VD;Y?biHRif>zHe0
+I1SVKFLnTbEzgb5?D14PP33
+R2
+R0
+R20
+R21
+R22
+L0 6
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+n@data@array
+vDCell
+R19
+!i10b 1
+!s100 C:I0Sz9OC:E`1YOomY^;02
+IZZI7n4:MAOOGJ<JRHi1h=3
+R2
+R0
+R20
+R21
+R22
+Z43 L0 24
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+n@d@cell
+vDECODE
+R19
+!i10b 1
+!s100 ChdUY<dojSKSAFnJ9mn=23
+IKaXSC68Xk@80R:aHH_bOV1
+R2
+R0
+R33
+R34
+R35
+L0 1
+R7
+r1
+!s85 0
+31
+R23
+R36
+R37
+!i113 1
+R11
+n@d@e@c@o@d@e
+vdecoder3to8
+R12
+!i10b 1
+!s100 004iAELDhiGnlzMAWAICh0
+ILAC9^kE:4ei5e^?bUhGV00
+R2
+R0
+R38
+R39
+R40
+L0 240
+R7
+r1
+!s85 0
+31
+R16
+R41
+R42
+!i113 1
+R11
+vdecoder6to128
+R12
+!i10b 1
+!s100 h=^H]I`D;:CNW]@QJo3FI2
+I3dC9YPj_EX[aI1VG6l=];2
+R2
+R0
+R38
+R39
+R40
+L0 260
+R7
+r1
+!s85 0
+31
+R16
+R41
+R42
+!i113 1
+R11
+vdff
+R19
+!i10b 1
+!s100 fd<ad42k]^C<@OCA:3UIU2
+InY0C^GiGT=NNDL<67^>3N0
+R2
+R0
+Z44 w1746108838
+Z45 8C:/Users/ashto/ECE552/Project/Phase2/D-Flip-Flop.v
+Z46 FC:/Users/ashto/ECE552/Project/Phase2/D-Flip-Flop.v
+L0 3
+R7
+r1
+!s85 0
+31
+R23
+Z47 !s107 C:/Users/ashto/ECE552/Project/Phase2/D-Flip-Flop.v|
+Z48 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/D-Flip-Flop.v|
+!i113 1
+R11
+vDWord
+R19
+!i10b 1
+!s100 CMU0BU[`5ZIMGMl00XYVG3
+INV5`z8Whd724Rjk9GPLG`1
+R2
+R0
+R20
+R21
+R22
+L0 19
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+n@d@word
+vEX_MEM_Regs
+R19
+!i10b 1
+!s100 KQ=;DM9jEi9Faf5Z8Hj_n1
+I3d26n5l08UfgN1agWSe^m3
+R2
+R0
+w1746154883
+8C:/Users/ashto/ECE552/Project/Phase2/EX_MEM_regs.v
+FC:/Users/ashto/ECE552/Project/Phase2/EX_MEM_regs.v
+L0 1
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ashto/ECE552/Project/Phase2/EX_MEM_regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/EX_MEM_regs.v|
+!i113 1
+R11
+n@e@x_@m@e@m_@regs
+vEXECUTE
+R19
+!i10b 1
+!s100 A^>fVmcb??FHmHn;2`?an1
+IO?Y_>?0jHTP?CCjmoIe6O3
+R2
+R0
+w1746158540
+8C:/Users/ashto/ECE552/Project/Phase2/EX.v
+FC:/Users/ashto/ECE552/Project/Phase2/EX.v
+L0 1
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ashto/ECE552/Project/Phase2/EX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/EX.v|
+!i113 1
+R11
+n@e@x@e@c@u@t@e
+vFETCH
+R12
+!i10b 1
+!s100 4RAGA0=Vmjg6`AjbPZm310
+IX4GHh11>KkQej3gUbLeX60
+R2
+R0
+Z49 w1746149446
+Z50 8C:/Users/ashto/ECE552/Project/Phase2/IF.v
+Z51 FC:/Users/ashto/ECE552/Project/Phase2/IF.v
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+Z52 !s107 C:/Users/ashto/ECE552/Project/Phase2/IF.v|
+Z53 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/IF.v|
+!i113 1
+R11
+n@f@e@t@c@h
+vFlagRegister
+R12
+!i10b 1
+!s100 dhTag8o=JQ2iAnS2:]H^D2
+I@QJKRha::79b2]CjmPS?d1
+R2
+R0
+R13
+R14
+R15
+L0 120
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+n@flag@register
+vForwardingUnit
+R19
+!i10b 1
+!s100 kRzNnYJ@8QooE`WoMd9VU1
+ID2oa<i^LJFhU?diXazd2K2
+R2
+R0
+w1746156128
+8C:/Users/ashto/ECE552/Project/Phase2/forwarding_unit.v
+FC:/Users/ashto/ECE552/Project/Phase2/forwarding_unit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ashto/ECE552/Project/Phase2/forwarding_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/forwarding_unit.v|
+!i113 1
+R11
+n@forwarding@unit
+vfull_adder_1bit
+R1
+!i10b 1
+!s100 JdJJ@`aUIRZ1:MM`3Tooo3
+IiL[LYj:?N3E`6Y3kgn9CU0
+R2
+R0
+R3
+R4
+R5
+L0 144
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vHazardDetection
+R19
+!i10b 1
+!s100 8:=MBdMMQUHE4Y`i[nCab1
+IN[bHZfaJ2fO3BY=G1hWi`0
+R2
+R0
+w1746148880
+8C:/Users/ashto/ECE552/Project/Phase2/hazard_detection_unit.v
+FC:/Users/ashto/ECE552/Project/Phase2/hazard_detection_unit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/ashto/ECE552/Project/Phase2/hazard_detection_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/hazard_detection_unit.v|
+!i113 1
+R11
+n@hazard@detection
+vi_cache
+R12
+!i10b 1
+!s100 F4:?l1GoeZkAi9M=PMJLl1
+I_]oBXg`Pz3WQ]<d>o:FIN3
+R2
+R0
+R49
+R50
+R51
+L0 67
+R7
+r1
+!s85 0
+31
+R16
+R52
+R53
+!i113 1
+R11
+vID_EX_Regs
+R12
+!i10b 1
+!s100 VgHk=<oml<1gzHDFBkXHk1
+IlTV:]>Af2hoHGK]RC^XBM1
+R2
+R0
+w1746157229
+8C:/Users/ashto/ECE552/Project/Phase2/ID_EX_regs.v
+FC:/Users/ashto/ECE552/Project/Phase2/ID_EX_regs.v
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ashto/ECE552/Project/Phase2/ID_EX_regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/ID_EX_regs.v|
+!i113 1
+R11
+n@i@d_@e@x_@regs
+vIF_ID_REG
+R12
+!i10b 1
+!s100 T2>8K501MA?]1LHcP71fO3
+I=D6[Mm0L_9aS6?jGE_g9j0
+R2
+R0
+w1746153175
+8C:/Users/ashto/ECE552/Project/Phase2/IF_ID_regs.v
+FC:/Users/ashto/ECE552/Project/Phase2/IF_ID_regs.v
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ashto/ECE552/Project/Phase2/IF_ID_regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/IF_ID_regs.v|
+!i113 1
+R11
+n@i@f_@i@d_@r@e@g
+vMBlock
+R12
+!i10b 1
+!s100 L4iL:[ZBSjOWR]1NQ;04W3
+IBB`F^3M]AC1W@YN9a<4WE0
+R2
+R0
+Z54 w1746070382
+Z55 8C:/Users/ashto/ECE552/Project/Phase2/MetaDataArray.v
+Z56 FC:/Users/ashto/ECE552/Project/Phase2/MetaDataArray.v
+L0 10
+R7
+r1
+!s85 0
+31
+R16
+Z57 !s107 C:/Users/ashto/ECE552/Project/Phase2/MetaDataArray.v|
+Z58 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/MetaDataArray.v|
+!i113 1
+R11
+n@m@block
+vMCell
+R12
+!i10b 1
+!s100 2GSWb<`mS<ZZ=M[jPTRE91
+IDbAZ@1ceHcn8<TCmQe?NV1
+R2
+R0
+R54
+R55
+R56
+L0 14
+R7
+r1
+!s85 0
+31
+R16
+R57
+R58
+!i113 1
+R11
+n@m@cell
+vMEM_WB_Regs
+R12
+!i10b 1
+!s100 aa3GGgGemFSBo_S@NK[L=1
+IED[PA^zGhk4EXI@zok6a73
+R2
+R0
+w1746112510
+8C:/Users/ashto/ECE552/Project/Phase2/MEM_WB_regs.v
+FC:/Users/ashto/ECE552/Project/Phase2/MEM_WB_regs.v
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ashto/ECE552/Project/Phase2/MEM_WB_regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/MEM_WB_regs.v|
+!i113 1
+R11
+n@m@e@m_@w@b_@regs
+vmemory
+!s110 1743965081
+!i10b 1
+!s100 8i=]]cB998bA1JddPWGI51
+If]ijWk]_;n<>NJTLY`I]g3
+R2
+R0
+w1743874129
+8C:/Users/ashto/ECE552/Project/Phase2/memory.v
+FC:/Users/ashto/ECE552/Project/Phase2/memory.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1743965081.000000
+!s107 C:/Users/ashto/ECE552/Project/Phase2/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/memory.v|
+!i113 1
+R11
+vMEMORY
+R12
+!i10b 1
+!s100 B2n7=>[k0ojMgA?;1?^E=0
+IegafW_@kM>MEFAUNfzz:o3
+R2
+R0
+R38
+R39
+R40
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+R41
+R42
+!i113 1
+R11
+n@m@e@m@o@r@y
+vmemory1c
+!s110 1743995726
+!i10b 1
+!s100 `Lg>mB2N6Sz4<0:aG0V2U2
+I<53L<WND:?UiQaIcg3Zzz2
+R2
+R0
+w1743995719
+R39
+R40
+L0 60
+R7
+r1
+!s85 0
+31
+!s108 1743995726.000000
+R41
+R42
+!i113 1
+R11
+vmemory4c
+R12
+!i10b 1
+!s100 hWER57NYm_dF6BlYm=7IZ2
+ImQdIL[m6IX98[YzRKK9m53
+R2
+R0
+w1746159060
+8C:/Users/ashto/ECE552/Project/Phase2/multicycle_memory.v
+FC:/Users/ashto/ECE552/Project/Phase2/multicycle_memory.v
+R43
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ashto/ECE552/Project/Phase2/multicycle_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/multicycle_memory.v|
+!i113 1
+R11
+vMEMORY_tb
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R26
+!i10b 1
+!s100 2]PA?c[]XRY<OSkaX@BVf0
+IZjCZD46aRhM87CBD_HK7E1
+R2
+!s105 Memory_tb_sv_unit
+S1
+R0
+R20
+8C:/Users/ashto/ECE552/Project/Phase2/Memory_tb.sv
+FC:/Users/ashto/ECE552/Project/Phase2/Memory_tb.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/ashto/ECE552/Project/Phase2/Memory_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/Memory_tb.sv|
+!i113 1
+o-work work -sv
+n@m@e@m@o@r@y_tb
+vMetaDataArray
+R12
+!i10b 1
+!s100 3UQR43kB3ci=79^b4@L4M3
+Igi:F8TOKUEgYV@W]lLEd`0
+R2
+R0
+R54
+R55
+R56
+L0 6
+R7
+r1
+!s85 0
+31
+R16
+R57
+R58
+!i113 1
+R11
+n@meta@data@array
+vNOT_dff
+R19
+!i10b 1
+!s100 HZ=@AeTd>eTZgU>ga=B]T0
+I0>K^9GVlSEbgBE5o_a8493
+R2
+R0
+R44
+R45
+R46
+L0 21
+R7
+r1
+!s85 0
+31
+R23
+R47
+R48
+!i113 1
+R11
+n@n@o@t_dff
+vPSA_16bit
+R1
+!i10b 1
+!s100 ]i=W>887?Db;WMK:9;g0Q1
+In5J2mzznEEMXUF3kNnnUf1
+R2
+R0
+R3
+R4
+R5
+L0 99
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+n@p@s@a_16bit
+vReadDecoder_4_16
+R12
+!i10b 1
+!s100 `OW5Qb49UGFb_>1a;OE<T3
+IPzU^:SzJCookK[OI7AfbS0
+R2
+R0
+R13
+R14
+R15
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+n@read@decoder_4_16
+vreduction_unit
+R12
+!i10b 1
+!s100 TN3eFj7aoiMlP6EDZO15:1
+IgRHc]PR2P43G96J:S^>LI2
+R2
+R0
+R3
+8C:/Users/ashto/ECE552/Project/Phase2/reduction_unit.v
+FC:/Users/ashto/ECE552/Project/Phase2/reduction_unit.v
+L0 12
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ashto/ECE552/Project/Phase2/reduction_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/reduction_unit.v|
+!i113 1
+R11
+vRegister
+R12
+!i10b 1
+!s100 bnXjRzKhOT9[EQA:^l>6S2
+IYQLK_C8gVaV=B`nWXAZ]K2
+R2
+R0
+R13
+R14
+R15
+L0 61
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+n@register
+vRegisterFile
+R12
+!i10b 1
+!s100 9zzlM=MSV?[hJYRfHjSB]0
+I<<bUOSD]g61?R?ZUdo0UU0
+R2
+R0
+R13
+R14
+R15
+L0 83
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+n@register@file
+vRegisterFile_tb
+!s110 1743995727
+!i10b 1
+!s100 ATG[6VQHR:7zm;gW@>NUZ1
+Ibi<4e;;g><ni4V471P6PA3
+R2
+R0
+w1741118627
+8C:/Users/ashto/ECE552/Project/Phase2/RegisterFile_tb.v
+FC:/Users/ashto/ECE552/Project/Phase2/RegisterFile_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1743995727.000000
+!s107 C:/Users/ashto/ECE552/Project/Phase2/RegisterFile_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/RegisterFile_tb.v|
+!i113 1
+R11
+n@register@file_tb
+vshifter
+R26
+!i10b 1
+!s100 OVlHL^aK]h5I9CiYk5:9;2
+I;<TW8WSnj`<mhK<^cFLh42
+R2
+R0
+R3
+8C:/Users/ashto/ECE552/Project/Phase2/shifter.v
+FC:/Users/ashto/ECE552/Project/Phase2/shifter.v
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ashto/ECE552/Project/Phase2/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/shifter.v|
+!i113 1
+R11
+vWRITEBACK
+R26
+!i10b 1
+!s100 oVIX:PA^8oL`f`5aKSKUB0
+I<NC[;_ckl<Q8O?jUdWVY53
+R2
+R0
+R3
+8C:/Users/ashto/ECE552/Project/Phase2/WB.v
+FC:/Users/ashto/ECE552/Project/Phase2/WB.v
+L0 1
+R7
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/ashto/ECE552/Project/Phase2/WB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ashto/ECE552/Project/Phase2/WB.v|
+!i113 1
+R11
+n@w@r@i@t@e@b@a@c@k
+vWriteDecoder_4_16
+R12
+!i10b 1
+!s100 ZHiVMh7Y1jMH877LHlnSL3
+InC90D^]G?aB]8i>;2Hh;P3
+R2
+R0
+R13
+R14
+R15
+L0 23
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 1
+R11
+n@write@decoder_4_16

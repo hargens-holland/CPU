@@ -1,0 +1,50 @@
+###########################
+# Read in Verilog source #
+###########################
+read_file -format sverilog { shifter.v ID.v EX.v MEM_WB_regs.v IF.v cla_adder.v DataArray.v alu.v forwarding_unit.v EX_MEM_regs.v multicycle_memory.v reduction_unit.v regfile.v hazard_detection_unit.v MEM.v mem_arbiter.v cpu.v MetaDataArray.v ID_EX_regs.v WB.v D-Flip-Flop.v IF_ID_regs.v cache.v }
+
+############################
+# Set top-level module    #
+############################
+current_design cpu
+link
+
+############################
+# Clock constraints setup #
+############################
+create_clock -name "clk" -period 2.5 [get_ports clk]
+set_dont_touch_network [get_ports clk]
+
+set prim_inputs [remove_from_collection [all_inputs] [get_ports clk]]
+set no_rst [remove_from_collection $prim_inputs [get_ports rst]]
+
+set_input_delay -clock clk 0.3 $prim_inputs
+set_driving_cell -lib_cell NAND2X2_LVT $no_rst
+
+set_output_delay -clock clk 0.5 [all_outputs]
+set_load 50 [all_outputs]
+
+set_max_transition 0.2 [current_design]
+
+##############################
+# Wire load model and timing #
+##############################
+set_wire_load_model -name 16000 -library saed32lvt_tt0p85v25c
+
+compile -map_effort low
+ungroup -all -flatten
+
+set_clock_uncertainty 0.15 clk
+set_fix_hold clk
+
+compile -map_effort high
+check_design
+
+##########################
+# Reports and Netlist    #
+##########################
+report_timing -path full -delay max > cpu_max_delay.txt
+report_timing -path full -delay min > cpu_min_delay.txt
+report_area > cpu_area.txt
+
+write -format verilog cpu -output cpu.vg

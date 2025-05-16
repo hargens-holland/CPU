@@ -1,0 +1,194 @@
+C:/Users/ashto/ECE552/Project/Phase2/ID_EX_regs.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/ID_EX_regs.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module ID_EX_Regs
+
+Top level modules:
+	ID_EX_Regs
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/Memory_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/ashto/ECE552/Project/Phase2/Memory_tb.sv
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module MEMORY_tb
+
+Top level modules:
+	MEMORY_tb
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/WB.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/WB.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module WRITEBACK
+
+Top level modules:
+	WRITEBACK
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/D-Flip-Flop.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/D-Flip-Flop.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module dff
+-- Compiling module NOT_dff
+
+Top level modules:
+	dff
+	NOT_dff
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/IF_ID_regs.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/IF_ID_regs.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module IF_ID_REG
+
+Top level modules:
+	IF_ID_REG
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/EX.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/EX.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module EXECUTE
+
+Top level modules:
+	EXECUTE
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/ID.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/ID.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module DECODE
+-- Compiling module control
+
+Top level modules:
+	DECODE
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/project-phase3-testbench.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/project-phase3-testbench.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cpu_ptb
+
+Top level modules:
+	cpu_ptb
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/shifter.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/shifter.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/IF.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/IF.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module FETCH
+-- Compiling module i_cache
+
+Top level modules:
+	FETCH
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/cla_adder.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/cla_adder.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cla_16bit_nonSAT
+-- Compiling module cla_16bit
+-- Compiling module cla_4bit
+-- Compiling module cla_4bit_sat
+
+Top level modules:
+	cla_16bit_nonSAT
+	cla_16bit
+	cla_4bit_sat
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/MEM_WB_regs.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/MEM_WB_regs.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module MEM_WB_Regs
+
+Top level modules:
+	MEM_WB_Regs
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/CacheController.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/CacheController.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cache_fill_FSM
+
+Top level modules:
+	cache_fill_FSM
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/DataArray.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/DataArray.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module DataArray
+-- Compiling module Block
+-- Compiling module DWord
+-- Compiling module DCell
+
+Top level modules:
+	DataArray
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/forwarding_unit.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/forwarding_unit.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/alu.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/alu.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module ALU
+-- Compiling module PSA_16bit
+-- Compiling module full_adder_1bit
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/multicycle_memory.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/multicycle_memory.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory4c
+
+Top level modules:
+	memory4c
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/EX_MEM_regs.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/EX_MEM_regs.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module EX_MEM_Regs
+
+Top level modules:
+	EX_MEM_Regs
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/reduction_unit.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/reduction_unit.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module reduction_unit
+
+Top level modules:
+	reduction_unit
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/regfile.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/regfile.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module ReadDecoder_4_16
+-- Compiling module WriteDecoder_4_16
+-- Compiling module BitCell
+-- Compiling module Register
+-- Compiling module RegisterFile
+-- Compiling module FlagRegister
+
+Top level modules:
+	RegisterFile
+	FlagRegister
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/hazard_detection_unit.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/hazard_detection_unit.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module HazardDetection
+
+Top level modules:
+	HazardDetection
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/MEM.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/MEM.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module MEMORY
+-- Compiling module d_cache
+-- Compiling module decoder3to8
+-- Compiling module decoder6to128
+
+Top level modules:
+	MEMORY
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/MetaDataArray.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/MetaDataArray.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module MetaDataArray
+-- Compiling module MBlock
+-- Compiling module MCell
+
+Top level modules:
+	MetaDataArray
+
+} {} {}} C:/Users/ashto/ECE552/Project/Phase2/cpu.v {1 {vlog -work work -stats=none C:/Users/ashto/ECE552/Project/Phase2/cpu.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}}

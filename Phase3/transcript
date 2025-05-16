@@ -1,0 +1,569 @@
+vsim -gui work.cpu_ptb
+# vsim -gui work.cpu_ptb 
+# Start time: 18:21:19 on Apr 06,2025
+# ** Fatal: (vsim-3381) Obsolete library format for design unit. Design unit 'C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/work.cpu_ptb'
+#    Time: 0 ps  Iteration: 0  Root: / File: NOFILE
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:21:20 on Apr 06,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 4
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.cpu_ptb
+# vsim -gui work.cpu_ptb 
+# Start time: 18:21:42 on Apr 06,2025
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.memory1c
+# Loading work.IF_ID_REG
+# Loading work.dff
+# Loading work.DECODE
+# Loading work.control
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+add wave -position insertpoint sim:/cpu_ptb/DUT/hazard_detection/*
+add wave -position insertpoint sim:/cpu_ptb/DUT/memory1/*
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v(123)
+#    Time: 2005 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v line 123
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.memory1c
+# Loading work.IF_ID_REG
+# Loading work.dff
+# Loading work.DECODE
+# Loading work.control
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v(72)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v line 72
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.memory1c
+# Loading work.IF_ID_REG
+# Loading work.dff
+# Loading work.DECODE
+# Loading work.control
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v(123)
+#    Time: 2005 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v line 123
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.memory1c
+# Loading work.IF_ID_REG
+# Loading work.dff
+# Loading work.DECODE
+# Loading work.control
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v(123)
+#    Time: 2005 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v line 123
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.memory1c
+# Loading work.IF_ID_REG
+# Loading work.dff
+# Loading work.DECODE
+# Loading work.control
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v(123)
+#    Time: 2005 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v line 123
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.cpu_ptb
+# End time: 18:46:30 on Apr 06,2025, Elapsed time: 0:24:48
+# Errors: 0, Warnings: 2
+# vsim -gui work.cpu_ptb 
+# Start time: 18:46:30 on Apr 06,2025
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.memory1c
+# Loading work.IF_ID_REG
+# Loading work.dff
+# Loading work.DECODE
+# Loading work.control
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v(123)
+#    Time: 2005 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v line 123
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.memory1c
+# Loading work.IF_ID_REG
+# Loading work.dff
+# Loading work.DECODE
+# Loading work.control
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v(123)
+#    Time: 2005 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v line 123
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+# Load canceled
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.memory1c
+# Loading work.IF_ID_REG
+# Loading work.dff
+# Loading work.DECODE
+# Loading work.control
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ex_mem_regs'.  Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_ptb/DUT/ex_mem_regs File: C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/cpu.v Line: 200
+# ** Warning: (vsim-3722) C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/cpu.v(200): [TFMPC] - Missing connection for port 'delay_flag_out'.
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v failed with 1 errors.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 1 failed with 1 error.
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v failed with 1 errors.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 1 failed with 1 error.
+# Compile of alu.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 19 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v(123)
+#    Time: 2005 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase2/project-phase2-testbench.v line 123

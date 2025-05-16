@@ -1,0 +1,1289 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/tommy/Documents/UW_Madison/ECE551/CLASS/Exercise14
+vALU
+Z0 !s110 1746221710
+!i10b 1
+!s100 Em3?9Kk0h`GL1nL?1oWc00
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IgT[jI>FRnle2ecm?6^]ZY1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/assembled_tests
+Z4 w1746221535
+Z5 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/alu.v
+Z6 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/alu.v
+!i122 154
+L0 11 87
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1746221709.000000
+Z9 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/alu.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/alu.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@l@u
+vBitCell
+Z13 !s110 1746221714
+!i10b 1
+!s100 b`MJ=RDn:>m]]0Ao>iK]^2
+R1
+I3V]M3S8jiRkKCAY=:7_mA2
+R2
+R3
+Z14 w1746221532
+Z15 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/regfile.v
+Z16 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/regfile.v
+!i122 177
+L0 45 14
+R7
+r1
+!s85 0
+31
+Z17 !s108 1746221714.000000
+Z18 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/regfile.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/regfile.v|
+!i113 1
+R11
+R12
+n@bit@cell
+vBlock
+Z20 !s110 1746221711
+!i10b 1
+!s100 9_OEHb:AegHE0n6jc1>M51
+R1
+IzKnA;F8?j^HaL>MJ9a>T@3
+R2
+R3
+R4
+Z21 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/DataArray.v
+Z22 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/DataArray.v
+!i122 159
+L0 11 5
+R7
+r1
+!s85 0
+31
+Z23 !s108 1746221711.000000
+Z24 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/DataArray.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/DataArray.v|
+!i113 1
+R11
+R12
+n@block
+vcache_controller
+Z26 !s110 1745271007
+!i10b 1
+!s100 Qh@9;XMl>`8NS4djM7GkJ0
+R1
+Ie`kgC9^G1kmT_oKfIeD4B1
+R2
+Z27 dC:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/assembled_tests
+Z28 w1745265644
+Z29 8C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/cache.v
+Z30 FC:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/cache.v
+!i122 102
+L0 82 71
+R7
+r1
+!s85 0
+31
+Z31 !s108 1745271007.000000
+Z32 !s107 C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/cache.v|
+Z33 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/cache.v|
+!i113 1
+R11
+R12
+vcache_data_array
+R26
+!i10b 1
+!s100 ^K>0M`2^[zdPUT8:DQkzk2
+R1
+IA@?X3h<Gh582OfOa_Y9lV0
+R2
+R27
+R28
+R29
+R30
+!i122 102
+L0 49 16
+R7
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R11
+R12
+vcache_fill_FSM
+R0
+!i10b 1
+!s100 5IjW@P^c@S]B<9Ig<[Nl[3
+R1
+Id?G1ZlCYLMef9C:DaW9e12
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/CacheController.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/CacheController.v
+!i122 155
+L0 1 119
+R7
+r1
+!s85 0
+31
+Z34 !s108 1746221710.000000
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/CacheController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/CacheController.v|
+!i113 1
+R11
+R12
+ncache_fill_@f@s@m
+vcache_fill_FSM_tb
+R20
+!i10b 1
+!s100 ZBGcdVb3@]QKaMVaLS4F:3
+R1
+IJIAPW^@of>61>nZM^nz9T2
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/CacheFSM_tb.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/CacheFSM_tb.v
+!i122 156
+L0 1 193
+R7
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/CacheFSM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/CacheFSM_tb.v|
+!i113 1
+R11
+R12
+ncache_fill_@f@s@m_tb
+vcache_meta_array
+R26
+!i10b 1
+!s100 UhDiVle83kOm2B<_N>:z;1
+R1
+I0[@BhO09GHz@<b<<zl7XO1
+R2
+R27
+R28
+R29
+R30
+!i122 102
+L0 66 15
+R7
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R11
+R12
+vcache_top
+R26
+!i10b 1
+!s100 Q?cLS>^>JiORLAQ4OV;Ee0
+R1
+I=zB_1D_ij]S[fVTn4[h<z2
+R2
+R27
+R28
+R29
+R30
+!i122 102
+L0 1 47
+R7
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R11
+R12
+vcla_16bit
+R20
+!i10b 1
+!s100 L[eAmV[oSMnI0f[LfzAKQ3
+R1
+I0HegMBM<IEP8<@Q360dc21
+R2
+R3
+R4
+Z35 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/cla_adder.v
+Z36 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/cla_adder.v
+!i122 157
+L0 20 18
+R7
+r1
+!s85 0
+31
+R23
+Z37 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/cla_adder.v|
+Z38 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/cla_adder.v|
+!i113 1
+R11
+R12
+vcla_16bit_nonSAT
+R20
+!i10b 1
+!s100 CIc6gJ4UQHoHAUf4lQ6Te3
+R1
+Ijl]^cSkI6G;Y<cb;6P;[E1
+R2
+R3
+R4
+R35
+R36
+!i122 157
+L0 8 11
+R7
+r1
+!s85 0
+31
+R23
+R37
+R38
+!i113 1
+R11
+R12
+ncla_16bit_non@s@a@t
+vcla_4bit
+R20
+!i10b 1
+!s100 ?Y0T6bGnoXnCMjCPZCHhP3
+R1
+I;hMAH[CH8KFD2A56VRC8e0
+R2
+R3
+R4
+R35
+R36
+!i122 157
+L0 39 17
+R7
+r1
+!s85 0
+31
+R23
+R37
+R38
+!i113 1
+R11
+R12
+vcla_4bit_sat
+R20
+!i10b 1
+!s100 1h:9j1YQ1Pk^3<_MPUa[U0
+R1
+IdhUVi4;>JEFOMYb:jlZVR0
+R2
+R3
+R4
+R35
+R36
+!i122 157
+L0 57 15
+R7
+r1
+!s85 0
+31
+R23
+R37
+R38
+!i113 1
+R11
+R12
+vcontrol
+Z39 !s110 1746221712
+!i10b 1
+!s100 B=bDz[B^JJzm<eUS?9:CF2
+R1
+IJh9G]i8lAJdzYmV:nMMZm1
+R2
+R3
+R4
+Z40 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/ID.v
+Z41 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/ID.v
+!i122 165
+L0 115 63
+R7
+r1
+!s85 0
+31
+Z42 !s108 1746221712.000000
+Z43 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/ID.v|
+Z44 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/ID.v|
+!i113 1
+R11
+R12
+vcpu
+R20
+!i10b 1
+!s100 iEio2@LoVnEOmeL^C:iJB2
+R1
+IGjl0Do=Fez<=:ngzZ2XS`1
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/cpu.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/cpu.v
+!i122 158
+L0 1 372
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/cpu.v|
+!i113 1
+R11
+R12
+vcpu_ptb
+R13
+!i10b 1
+!s100 eR1l`XkiXCTH14maG>:AP2
+R1
+I`C0Iz@;VaQE>leimlQ_]71
+R2
+R3
+R14
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/project-phase3-testbench.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/project-phase3-testbench.v
+!i122 175
+L0 1 201
+R7
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/project-phase3-testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/project-phase3-testbench.v|
+!i113 1
+R11
+R12
+vd_cache
+Z45 !s110 1746221713
+!i10b 1
+!s100 EzTJK4RFjRL>d[ObMBL8N2
+R1
+IbM1jnMK4cbO^AOY@jDUhH3
+R2
+R3
+R14
+Z46 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MEM.v
+Z47 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MEM.v
+!i122 169
+L0 37 202
+R7
+r1
+!s85 0
+31
+Z48 !s108 1746221713.000000
+Z49 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MEM.v|
+Z50 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MEM.v|
+!i113 1
+R11
+R12
+vDataArray
+R20
+!i10b 1
+!s100 A>SH?XAHzRQnzjYBWnoa?1
+R1
+ID91AL`9_TLd9ilkVTlZ2Z0
+R2
+R3
+R4
+R21
+R22
+!i122 159
+Z51 L0 6 3
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+R12
+n@data@array
+vDCell
+R20
+!i10b 1
+!s100 iHWC=;2;DC^2k8>`E]e`n1
+R1
+IY7T6chiGKG_^mT6V9iiWY1
+R2
+R3
+R4
+R21
+R22
+!i122 159
+L0 24 5
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+R12
+n@d@cell
+vDECODE
+R39
+!i10b 1
+!s100 =dWhUZ1aDFQfo_cS5W;G90
+R1
+IjX9[efkV=><YfLfVFAEz?3
+R2
+R3
+R4
+R40
+R41
+!i122 165
+L0 1 113
+R7
+r1
+!s85 0
+31
+R42
+R43
+R44
+!i113 1
+R11
+R12
+n@d@e@c@o@d@e
+vdecoder3to8
+R45
+!i10b 1
+!s100 aTdCY:Je9<1z4Z`JzS3CA3
+R1
+I_ZDUZ:ES19k9eN0Q>0T@M1
+R2
+R3
+R14
+R46
+R47
+!i122 169
+L0 240 19
+R7
+r1
+!s85 0
+31
+R48
+R49
+R50
+!i113 1
+R11
+R12
+vdecoder6to128
+R45
+!i10b 1
+!s100 Fi_IeQeLd50GIGfnlE`fP2
+R1
+I[h:62_Z8IVdjMgV=laVMn3
+R2
+R3
+R14
+R46
+R47
+!i122 169
+L0 260 75
+R7
+r1
+!s85 0
+31
+R48
+R49
+R50
+!i113 1
+R11
+R12
+vdff
+R20
+!i10b 1
+!s100 GPkooLjk<d<^mBZg??8oj3
+R1
+IU]P9aIM1eQO;Qf;=KKNn>2
+R2
+R3
+R4
+Z52 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/D-Flip-Flop.v
+Z53 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/D-Flip-Flop.v
+!i122 160
+L0 3 17
+R7
+r1
+!s85 0
+31
+R23
+Z54 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/D-Flip-Flop.v|
+Z55 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/D-Flip-Flop.v|
+!i113 1
+R11
+R12
+vDWord
+R20
+!i10b 1
+!s100 dHnQeAiiP:?hB[UD6`Y3O1
+R1
+Inkm9L_5@fJWni^GAjA^F<1
+R2
+R3
+R4
+R21
+R22
+!i122 159
+L0 19 3
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 1
+R11
+R12
+n@d@word
+vEX
+Z56 !s110 1745271008
+!i10b 1
+!s100 5[n`:BiQDjnF8iR7V9hWY1
+R1
+I6aILoE[EdLQ`XPi6`f8RZ1
+R2
+R27
+w1745268573
+8C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/EX.v
+FC:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/EX.v
+!i122 107
+L0 1 56
+R7
+r1
+!s85 0
+31
+Z57 !s108 1745271008.000000
+!s107 C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/EX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/EX.v|
+!i113 1
+R11
+R12
+n@e@x
+vEX_MEM_Regs
+R39
+!i10b 1
+!s100 6:_EF:S1EO@nb7Bz9zUF@2
+R1
+Ib4b13H@]FdcWThcn>[bm40
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/EX_MEM_regs.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/EX_MEM_regs.v
+!i122 162
+L0 1 192
+R7
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/EX_MEM_regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/EX_MEM_regs.v|
+!i113 1
+R11
+R12
+n@e@x_@m@e@m_@regs
+vEXECUTE
+R20
+!i10b 1
+!s100 Y`W:`e:NBikEFYU6NAG=U0
+R1
+I9mNeIIMU33=M25KeNAmak2
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/EX.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/EX.v
+!i122 161
+L0 1 31
+R7
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/EX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/EX.v|
+!i113 1
+R11
+R12
+n@e@x@e@c@u@t@e
+vFETCH
+R39
+!i10b 1
+!s100 Gn=LGVJ?@iiFLRoH:hKho2
+R1
+Ie@QX0maNTAJZ7TKPlD>373
+R2
+R3
+R4
+Z58 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/IF.v
+Z59 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/IF.v
+!i122 167
+L0 1 65
+R7
+r1
+!s85 0
+31
+R42
+Z60 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/IF.v|
+Z61 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/IF.v|
+!i113 1
+R11
+R12
+n@f@e@t@c@h
+vFlagRegister
+R13
+!i10b 1
+!s100 Imm0NjHXUb8OUG9YR1UQH1
+R1
+IJJ`469<Dbjz^AbGPVR=4l0
+R2
+R3
+R14
+R15
+R16
+!i122 177
+L0 120 18
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+n@flag@register
+vForwardingUnit
+R39
+!i10b 1
+!s100 O[_gUj`eQG;9c6U_e2bl53
+R1
+I`zPGbhD3CDN0VQBIe1:n]2
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/forwarding_unit.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/forwarding_unit.v
+!i122 163
+L0 1 46
+R7
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/forwarding_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/forwarding_unit.v|
+!i113 1
+R11
+R12
+n@forwarding@unit
+vfull_adder_1bit
+R0
+!i10b 1
+!s100 4B<6gc7:P19ec8bTfc:_53
+R1
+ID08YdnN[mE?^0`B3Xkm7^2
+R2
+R3
+R4
+R5
+R6
+!i122 154
+L0 144 6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vHazardDetection
+R39
+!i10b 1
+!s100 2fJILXnCWKMecPJB;<dn22
+R1
+IF4ZT<TQOn[AIYOo91ckiI3
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/hazard_detection_unit.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/hazard_detection_unit.v
+!i122 164
+L0 1 42
+R7
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/hazard_detection_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/hazard_detection_unit.v|
+!i113 1
+R11
+R12
+n@hazard@detection
+vi_cache
+R39
+!i10b 1
+!s100 hO2Cl8Y0An@7o2De8i=?=0
+R1
+I[:XV[10;YmbY>4hBE8<8a2
+R2
+R3
+R4
+R58
+R59
+!i122 167
+L0 67 188
+R7
+r1
+!s85 0
+31
+R42
+R60
+R61
+!i113 1
+R11
+R12
+vID_EX_Regs
+R39
+!i10b 1
+!s100 8a6eY?VbiV0G51n:TLbHz3
+R1
+ImdRKfL0M2JQ[BZm44=CHM2
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/ID_EX_regs.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/ID_EX_regs.v
+!i122 166
+L0 1 176
+R7
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/ID_EX_regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/ID_EX_regs.v|
+!i113 1
+R11
+R12
+n@i@d_@e@x_@regs
+vIF_ID_REG
+R39
+!i10b 1
+!s100 =eE>zOiSAdo7acWj_<7<21
+R1
+ImDIN1[?gTXcYQURLJlOJf2
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/IF_ID_regs.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/IF_ID_regs.v
+!i122 168
+L0 1 72
+R7
+r1
+!s85 0
+31
+R42
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/IF_ID_regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/IF_ID_regs.v|
+!i113 1
+R11
+R12
+n@i@f_@i@d_@r@e@g
+vMBlock
+R45
+!i10b 1
+!s100 F<[agXiEVmYBa7U;cBMEh3
+R1
+ILT]mceSB^OK]LT:RabT^91
+R2
+R3
+R14
+Z62 8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MetaDataArray.v
+Z63 FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MetaDataArray.v
+!i122 172
+L0 10 3
+R7
+r1
+!s85 0
+31
+R48
+Z64 !s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MetaDataArray.v|
+Z65 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MetaDataArray.v|
+!i113 1
+R11
+R12
+n@m@block
+vMCell
+R45
+!i10b 1
+!s100 GI8U=E11D5bO:mKXUjSLg0
+R1
+I>OEfCU;KZ[c;lX^Wfj=b_1
+R2
+R3
+R14
+R62
+R63
+!i122 172
+L0 14 5
+R7
+r1
+!s85 0
+31
+R48
+R64
+R65
+!i113 1
+R11
+R12
+n@m@cell
+vMEM
+R56
+!i10b 1
+!s100 09Iczm><Wm:8M[=UjJo1R0
+R1
+I2]gWd?WEDIWDC9`:h6BIN2
+R2
+R27
+w1745268566
+8C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/MEM.v
+FC:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/MEM.v
+!i122 115
+Z66 L0 1 32
+R7
+r1
+!s85 0
+31
+R57
+!s107 C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/MEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/MEM.v|
+!i113 1
+R11
+R12
+n@m@e@m
+vmem_arbiter
+R56
+!i10b 1
+!s100 G]o@F0V8]K6^;IU^=lOJo1
+R1
+I^VKd2?2:UodQNe7e^nM<i1
+R2
+R27
+w1745265789
+8C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/mem_arbiter.v
+FC:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/mem_arbiter.v
+!i122 116
+L0 1 100
+R7
+r1
+!s85 0
+31
+R57
+!s107 C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/mem_arbiter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tommy/Documents/UW_Madison/ECE552/ECE552_Project/Phase3/mem_arbiter.v|
+!i113 1
+R11
+R12
+vMEM_WB_Regs
+R45
+!i10b 1
+!s100 JXjgDleiYbdK2=9HY`Ng62
+R1
+I]dacT0GT8z_9QUTW^BH[o3
+R2
+R3
+R14
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MEM_WB_regs.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MEM_WB_regs.v
+!i122 170
+L0 1 98
+R7
+r1
+!s85 0
+31
+R48
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MEM_WB_regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/MEM_WB_regs.v|
+!i113 1
+R11
+R12
+n@m@e@m_@w@b_@regs
+vMEMORY
+R45
+!i10b 1
+!s100 jz4C`mJBH8i2_1BYz=Cgc3
+R1
+IOgB=13@PfcbF6HXz^Rj=j0
+R2
+R3
+R14
+R46
+R47
+!i122 169
+L0 1 34
+R7
+r1
+!s85 0
+31
+R48
+R49
+R50
+!i113 1
+R11
+R12
+n@m@e@m@o@r@y
+vmemory4c
+R45
+!i10b 1
+!s100 `h]DLN]lDYoT1bHIN8@Cg0
+R1
+I^RiD[jdCaez`l<k`_1=A[0
+R2
+R3
+R14
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/multicycle_memory.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/multicycle_memory.v
+!i122 173
+L0 24 69
+R7
+r1
+!s85 0
+31
+R48
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/multicycle_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/multicycle_memory.v|
+!i113 1
+R11
+R12
+vMEMORY_tb
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R45
+!i10b 1
+!s100 jEX`bO7L2cQin?DBX6HAh3
+R1
+I73^<0<M<N[=?L_Sg7jz6h0
+R2
+S1
+R3
+R14
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/Memory_tb.sv
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/Memory_tb.sv
+!i122 171
+L0 1 219
+R7
+r1
+!s85 0
+31
+R48
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/Memory_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/Memory_tb.sv|
+!i113 1
+o-work work -sv
+R12
+n@m@e@m@o@r@y_tb
+vMetaDataArray
+R45
+!i10b 1
+!s100 2k_Lm;E@HE<lR466]P:OW2
+R1
+ISjZlRO0:W<08B5F;g2ll^3
+R2
+R3
+R14
+R62
+R63
+!i122 172
+R51
+R7
+r1
+!s85 0
+31
+R48
+R64
+R65
+!i113 1
+R11
+R12
+n@meta@data@array
+vNOT_dff
+R20
+!i10b 1
+!s100 0KojGSm2E=iU?SVeYg7hS2
+R1
+I4d>d51]Z`zbeMjTS^d05W0
+R2
+R3
+R4
+R52
+R53
+!i122 160
+L0 21 17
+R7
+r1
+!s85 0
+31
+R23
+R54
+R55
+!i113 1
+R11
+R12
+n@n@o@t_dff
+vPSA_16bit
+R0
+!i10b 1
+!s100 N9DNG?<3]>475olBA3=dW1
+R1
+I<8Ka@PSXbzOLaW?;<2PAV0
+R2
+R3
+R4
+R5
+R6
+!i122 154
+L0 99 44
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@p@s@a_16bit
+vReadDecoder_4_16
+R13
+!i10b 1
+!s100 1KSS@<2TUiA:`LajZRIFQ1
+R1
+Ib4fg]Bja0N`=AI4hdlVjL1
+R2
+R3
+R14
+R15
+R16
+!i122 177
+L0 1 20
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+n@read@decoder_4_16
+vreduction_unit
+R13
+!i10b 1
+!s100 MXb;>72fV2bD<@eF[3KL33
+R1
+I;KX:h`I_F<Z:ZPaFNM@ng2
+R2
+R3
+R14
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/reduction_unit.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/reduction_unit.v
+!i122 176
+L0 12 37
+R7
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/reduction_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/reduction_unit.v|
+!i113 1
+R11
+R12
+vRegister
+R13
+!i10b 1
+!s100 Sz2o:gY=Zb9b0iZbIi6Cb3
+R1
+IEe4h<XeFQ?N;lR1j`cWS]2
+R2
+R3
+R14
+R15
+R16
+!i122 177
+L0 61 20
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+n@register
+vRegisterFile
+R13
+!i10b 1
+!s100 ;64N3bg:4CEe[db28Yimi1
+R1
+IZ<B>E]anhFmk8cMc3;ePO1
+R2
+R3
+R14
+R15
+R16
+!i122 177
+L0 83 36
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+n@register@file
+vRegisterFile_tb
+R13
+!i10b 1
+!s100 hKDikYc6X^Gf0[=_oUK9R2
+R1
+I@fi<Y1QX5=bC:]1;k<@X90
+R2
+R3
+R4
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/RegisterFile_tb.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/RegisterFile_tb.v
+!i122 178
+L0 2 81
+R7
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/RegisterFile_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/RegisterFile_tb.v|
+!i113 1
+R11
+R12
+n@register@file_tb
+vshifter
+R13
+!i10b 1
+!s100 M`jcc8NSWcS=N;CQjFHRG0
+R1
+I5m6Fn_dTlg?358gF8He?`3
+R2
+R3
+R14
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/shifter.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/shifter.v
+!i122 179
+R66
+R7
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/shifter.v|
+!i113 1
+R11
+R12
+vWRITEBACK
+R13
+!i10b 1
+!s100 jTUQ8R0KPeI@:?[SPbP>=2
+R1
+I0[E1zUE2RVKG3N5ZGXRlK1
+R2
+R3
+R14
+8C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/WB.v
+FC:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/WB.v
+!i122 180
+L0 1 13
+R7
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/WB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hshar/OneDrive/Documents/ECE552/ECE552_Project/Phase3/WB.v|
+!i113 1
+R11
+R12
+n@w@r@i@t@e@b@a@c@k
+vWriteDecoder_4_16
+R13
+!i10b 1
+!s100 KQ<3C6OU^hoJN;jANXMXK2
+R1
+I;j_fd4k:E?D=o?LhBF=QI1
+R2
+R3
+R14
+R15
+R16
+!i122 177
+L0 23 20
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R11
+R12
+n@write@decoder_4_16

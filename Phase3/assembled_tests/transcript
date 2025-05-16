@@ -1,0 +1,901 @@
+# Compile of alu.v was successful.
+# Compile of CacheController.v was successful.
+# Compile of CacheFSM_tb.v was successful.
+# Compile of cla_adder.v was successful.
+# Compile of cpu.v was successful.
+# Compile of DataArray.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of EX.v was successful.
+# Compile of EX_MEM_regs.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_detection_unit.v was successful.
+# Compile of ID.v was successful.
+# Compile of ID_EX_regs.v was successful.
+# Compile of IF.v was successful.
+# Compile of IF_ID_regs.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MEM_WB_regs.v was successful.
+# Compile of Memory_tb.sv was successful.
+# Compile of MetaDataArray.v was successful.
+# Compile of multicycle_memory.v was successful.
+# Compile of project-phase2-testbench.v was successful.
+# Compile of project-phase3-testbench.v was successful.
+# Compile of reduction_unit.v was successful.
+# Compile of regfile.v was successful.
+# Compile of RegisterFile_tb.v was successful.
+# Compile of shifter.v was successful.
+# Compile of WB.v was successful.
+# 27 compiles, 0 failed with no errors.
+vsim -gui work.cpu_ptb
+# vsim -gui work.cpu_ptb 
+# Start time: 16:27:10 on May 02,2025
+# Loading work.cpu_ptb
+# Loading work.cpu
+# Loading work.FlagRegister
+# Loading work.FETCH
+# Loading work.cla_16bit
+# Loading work.cla_4bit
+# Loading work.i_cache
+# Loading work.decoder3to8
+# Loading work.decoder6to128
+# Loading work.DataArray
+# Loading work.MetaDataArray
+# Loading work.cache_fill_FSM
+# Loading work.dff
+# Loading work.IF_ID_REG
+# Loading work.DECODE
+# Loading work.control
+# Loading work.cla_16bit_nonSAT
+# Loading work.RegisterFile
+# Loading work.ReadDecoder_4_16
+# Loading work.WriteDecoder_4_16
+# Loading work.Register
+# Loading work.BitCell
+# Loading work.ID_EX_Regs
+# Loading work.EXECUTE
+# Loading work.ALU
+# Loading work.PSA_16bit
+# Loading work.full_adder_1bit
+# Loading work.shifter
+# Loading work.reduction_unit
+# Loading work.EX_MEM_Regs
+# Loading work.MEMORY
+# Loading work.d_cache
+# Loading work.MEM_WB_Regs
+# Loading work.WRITEBACK
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+# Loading work.memory4c
+# Loading work.Block
+# Loading work.MBlock
+# Loading work.NOT_dff
+# Loading work.DWord
+# Loading work.MCell
+# Loading work.DCell
+# ** Warning: Design size of 77482 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+add wave -position insertpoint  \
+sim:/cpu_ptb/WriteRegister \
+sim:/cpu_ptb/WriteData \
+sim:/cpu_ptb/trace_file \
+sim:/cpu_ptb/sim_log_file \
+sim:/cpu_ptb/rst_n \
+sim:/cpu_ptb/RegWrite \
+sim:/cpu_ptb/PC \
+sim:/cpu_ptb/MemWrite \
+sim:/cpu_ptb/MemRead \
+sim:/cpu_ptb/MemDataOut \
+sim:/cpu_ptb/MemDataIn \
+sim:/cpu_ptb/MemAddress \
+sim:/cpu_ptb/inst_count \
+sim:/cpu_ptb/Inst \
+sim:/cpu_ptb/ICacheReq_count \
+sim:/cpu_ptb/ICacheReq \
+sim:/cpu_ptb/ICacheHit_count \
+sim:/cpu_ptb/ICacheHit \
+sim:/cpu_ptb/Halt \
+sim:/cpu_ptb/DCacheReq_count \
+sim:/cpu_ptb/DCacheReq \
+sim:/cpu_ptb/DCacheHit_count \
+sim:/cpu_ptb/DCacheHit \
+sim:/cpu_ptb/cycle_count \
+sim:/cpu_ptb/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: tommy  Hostname: TTT  ProcessID: 36064
+#           Attempting to use alternate WLF file "./wlft9s4bwr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9s4bwr
+run -all
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Cycle           1: PC:     x     Instruction: xxxx
+# Cycle           2: PC:     0     Instruction: 7000
+# Cycle           3: PC:     0     Instruction: 7000
+# Cycle           4: PC:     0     Instruction: 7000
+# Cycle           5: PC:     0     Instruction: 7000
+# Cycle           6: PC:     0     Instruction: 7000
+# Cycle           7: I-Cache Stalling
+# Cycle           7: PC:     0     Instruction: 7000
+# Cycle           8: I-Cache Stalling
+# Cycle           8: PC:     0     Instruction: 7000
+# Cycle           9: I-Cache Stalling
+# Cycle           9: PC:     0     Instruction: 7000
+# Cycle          10: I-Cache Stalling
+# Cycle          10: PC:     0     Instruction: 7000
+# Cycle          11: I-Cache Stalling
+# Cycle          11: PC:     0     Instruction: 7000
+# Cycle          12: I-Cache Stalling
+# Cycle          12: PC:     0     Instruction: 7000
+# Cycle          13: I-Cache Stalling
+# Cycle          13: PC:     0     Instruction: 7000
+# Cycle          14: I-Cache Stalling
+# Cycle          14: PC:     0     Instruction: 7000
+# Cycle          15: I-Cache Stalling
+# Cycle          15: PC:     0     Instruction: 7000
+# Cycle          16: I-Cache Stalling
+# Cycle          16: PC:     0     Instruction: 7000
+# Cycle          17: I-Cache Stalling
+# Cycle          17: PC:     0     Instruction: 7000
+# Cycle          18: I-Cache Stalling
+# Cycle          18: PC:     0     Instruction: 7000
+# Cycle          19: PC:     0     Instruction: a151
+# Cycle          20: PC:     2     Instruction: 7000
+# Cycle          21: PC:     2     Instruction: b151
+# Cycle          22: PC:     4     Instruction: 7000
+# Cycle          23: PC:     4     Instruction: a2b0
+# Cycle          24: PC:     6     Instruction: 7000
+# Cycle          25: PC:     6     Instruction: b2a0
+# Cycle          26: PC:     8     Instruction: 7000
+# Cycle          27: PC:     8     Instruction: 0321
+# Cycle          28: PC:    10     Instruction: 7000
+# Cycle          29: PC:    10     Instruction: 1412
+# Cycle          30: PC:    12     Instruction: 7000
+# Cycle          31: PC:    12     Instruction: 2634
+# Cycle          32: PC:    14     Instruction: 7000
+# Cycle          33: PC:    14     Instruction: 4756
+# Cycle          34: PC:    16     Instruction: 7000
+# Cycle          35: PC:    16     Instruction: 7000
+# Cycle          36: PC:    16     Instruction: 7000
+# Cycle          37: I-Cache Stalling
+# Cycle          37: PC:    16     Instruction: 7000
+# Cycle          38: I-Cache Stalling
+# Cycle          38: PC:    16     Instruction: 7000
+# Cycle          39: I-Cache Stalling
+# Cycle          39: PC:    16     Instruction: 7000
+# Cycle          40: I-Cache Stalling
+# Cycle          40: PC:    16     Instruction: 7000
+# Cycle          41: I-Cache Stalling
+# Cycle          41: PC:    16     Instruction: 7000
+# Cycle          42: I-Cache Stalling
+# Cycle          42: PC:    16     Instruction: 7000
+# Cycle          43: I-Cache Stalling
+# Cycle          43: PC:    16     Instruction: 7000
+# Cycle          44: I-Cache Stalling
+# Cycle          44: PC:    16     Instruction: 7000
+# Cycle          45: I-Cache Stalling
+# Cycle          45: PC:    16     Instruction: 7000
+# Cycle          46: I-Cache Stalling
+# Cycle          46: PC:    16     Instruction: 7000
+# Cycle          47: I-Cache Stalling
+# Cycle          47: PC:    16     Instruction: 7000
+# Cycle          48: I-Cache Stalling
+# Cycle          48: PC:    16     Instruction: 7000
+# Cycle          49: PC:    16     Instruction: 5862
+# Cycle          50: PC:    18     Instruction: 7000
+# Cycle          51: PC:    18     Instruction: 698a
+# Cycle          52: PC:    20     Instruction: 7000
+# Cycle          53: PC:    20     Instruction: f000
+# Cycle          54: PC:    20     Instruction: 7000
+# Cycle          55: PC:    20     Instruction: f000
+# Cycle          56: PC:    20     Instruction: 7000
+# Cycle          57: PC:    20     Instruction: f000
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/Phase2/project-phase3-testbench.v(164)
+#    Time: 5605 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/Phase2/project-phase3-testbench.v line 164
+# Compile of multicycle_memory.v was successful.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.memory4c
+# ** Warning: Design size of 77482 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.plog and verilogsim.ptrace for output
+# Cycle           1: PC:     x     Instruction: xxxx
+# Cycle           2: PC:     0     Instruction: 7000
+# Cycle           3: PC:     0     Instruction: 7000
+# Cycle           4: PC:     0     Instruction: 7000
+# Cycle           5: PC:     0     Instruction: 7000
+# Cycle           6: PC:     0     Instruction: 7000
+# Cycle           7: I-Cache Stalling
+# Cycle           7: PC:     0     Instruction: 7000
+# Cycle           8: I-Cache Stalling
+# Cycle           8: PC:     0     Instruction: 7000
+# Cycle           9: I-Cache Stalling
+# Cycle           9: PC:     0     Instruction: 7000
+# Cycle          10: I-Cache Stalling
+# Cycle          10: PC:     0     Instruction: 7000
+# Cycle          11: I-Cache Stalling
+# Cycle          11: PC:     0     Instruction: 7000
+# Cycle          12: I-Cache Stalling
+# Cycle          12: PC:     0     Instruction: 7000
+# Cycle          13: I-Cache Stalling
+# Cycle          13: PC:     0     Instruction: 7000
+# Cycle          14: I-Cache Stalling
+# Cycle          14: PC:     0     Instruction: 7000
+# Cycle          15: I-Cache Stalling
+# Cycle          15: PC:     0     Instruction: 7000
+# Cycle          16: I-Cache Stalling
+# Cycle          16: PC:     0     Instruction: 7000
+# Cycle          17: I-Cache Stalling
+# Cycle          17: PC:     0     Instruction: 7000
+# Cycle          18: I-Cache Stalling
+# Cycle          18: PC:     0     Instruction: 7000
+# Cycle          19: PC:     0     Instruction: a18a
+# Cycle          20: PC:     2     Instruction: 7000
+# Cycle          21: PC:     2     Instruction: a680
+# Cycle          22: PC:     4     Instruction: 7000
+# Cycle          23: PC:     4     Instruction: b601
+# Cycle          24: PC:     6     Instruction: 7000
+# Cycle          25: PC:     6     Instruction: 9160
+# Cycle          26: PC:     8     Instruction: 7000
+# Cycle          27: PC:     8     Instruction: a110
+# Cycle          28: PC:    10     Instruction: 7000
+# Cycle          29: PC:    10     Instruction: 7000
+# Cycle          30: PC:    10     Instruction: 7000
+# Cycle          31: D-Cache Stalling
+# Cycle          31: PC:    10     Instruction: 7000
+# Cycle          32: D-Cache Stalling
+# Cycle          32: PC:    10     Instruction: 7000
+# Cycle          33: D-Cache Stalling
+# Cycle          33: PC:    10     Instruction: 7000
+# Cycle          34: D-Cache Stalling
+# Cycle          34: PC:    10     Instruction: 7000
+# Cycle          35: D-Cache Stalling
+# Cycle          35: PC:    10     Instruction: 7000
+# Cycle          36: D-Cache Stalling
+# Cycle          36: PC:    10     Instruction: 7000
+# Cycle          37: D-Cache Stalling
+# Cycle          37: PC:    10     Instruction: 7000
+# Cycle          38: D-Cache Stalling
+# Cycle          38: PC:    10     Instruction: 7000
+# Cycle          39: D-Cache Stalling
+# Cycle          39: PC:    10     Instruction: 7000
+# Cycle          40: D-Cache Stalling
+# Cycle          40: PC:    10     Instruction: 7000
+# Cycle          41: D-Cache Stalling
+# Cycle          41: PC:    10     Instruction: 7000
+# Cycle          42: D-Cache Stalling
+# Cycle          42: PC:    10     Instruction: 7000
+# Cycle          43: PC:    10     Instruction: a270
+# Cycle          44: PC:    12     Instruction: 7000
+# Cycle          45: PC:    12     Instruction: 7000
+# Cycle          46: PC:    12     Instruction: 7000
+# Cycle          47: D-Cache Stalling
+# Cycle          47: PC:    12     Instruction: 7000
+# Cycle          48: D-Cache Stalling
+# Cycle          48: PC:    12     Instruction: 7000
+# Cycle          49: D-Cache Stalling
+# Cycle          49: PC:    12     Instruction: 7000
+# Cycle          50: D-Cache Stalling
+# Cycle          50: PC:    12     Instruction: 7000
+# Cycle          51: D-Cache Stalling
+# Cycle          51: PC:    12     Instruction: 7000
+# Cycle          52: D-Cache Stalling
+# Cycle          52: PC:    12     Instruction: 7000
+# Cycle          53: D-Cache Stalling
+# Cycle          53: PC:    12     Instruction: 7000
+# Cycle          54: D-Cache Stalling
+# Cycle          54: PC:    12     Instruction: 7000
+# Cycle          55: D-Cache Stalling
+# Cycle          55: PC:    12     Instruction: 7000
+# Cycle          56: D-Cache Stalling
+# Cycle          56: PC:    12     Instruction: 7000
+# Cycle          57: D-Cache Stalling
+# Cycle          57: PC:    12     Instruction: 7000
+# Cycle          58: D-Cache Stalling
+# Cycle          58: PC:    12     Instruction: 7000
+# Cycle          59: PC:    12     Instruction: a302
+# Cycle          60: PC:    14     Instruction: 7000
+# Cycle          61: PC:    14     Instruction: 9120
+# Cycle          62: PC:    16     Instruction: 7000
+# Cycle          63: PC:    16     Instruction: 7000
+# Cycle          64: PC:    16     Instruction: 7000
+# Cycle          65: I-Cache Stalling
+# Cycle          65: PC:    16     Instruction: 7000
+# Cycle          66: I-Cache Stalling
+# Cycle          66: PC:    16     Instruction: 7000
+# Cycle          67: I-Cache Stalling
+# Cycle          67: PC:    16     Instruction: 7000
+# Cycle          68: I-Cache Stalling
+# Cycle          68: PC:    16     Instruction: 7000
+# Cycle          69: I-Cache Stalling
+# Cycle          69: PC:    16     Instruction: 7000
+# Cycle          70: I-Cache Stalling
+# Cycle          70: PC:    16     Instruction: 7000
+# Cycle          71: I-Cache Stalling
+# Cycle          71: PC:    16     Instruction: 7000
+# Cycle          72: I-Cache Stalling
+# Cycle          72: PC:    16     Instruction: 7000
+# Cycle          73: I-Cache Stalling
+# Cycle          73: PC:    16     Instruction: 7000
+# Cycle          74: I-Cache Stalling
+# Cycle          74: PC:    16     Instruction: 7000
+# Cycle          75: I-Cache Stalling
+# Cycle          75: PC:    16     Instruction: 7000
+# Cycle          76: I-Cache Stalling
+# Cycle          76: PC:    16     Instruction: 7000
+# Cycle          77: PC:    16     Instruction: 7000
+# Cycle          78: D-Cache Stalling
+# Cycle          78: PC:    16     Instruction: 7000
+# Cycle          79: D-Cache Stalling
+# Cycle          79: PC:    16     Instruction: 7000
+# Cycle          80: D-Cache Stalling
+# Cycle          80: PC:    16     Instruction: 7000
+# Cycle          81: D-Cache Stalling
+# Cycle          81: PC:    16     Instruction: 7000
+# Cycle          82: D-Cache Stalling
+# Cycle          82: PC:    16     Instruction: 7000
+# Cycle          83: D-Cache Stalling
+# Cycle          83: PC:    16     Instruction: 7000
+# Cycle          84: D-Cache Stalling
+# Cycle          84: PC:    16     Instruction: 7000
+# Cycle          85: D-Cache Stalling
+# Cycle          85: PC:    16     Instruction: 7000
+# Cycle          86: D-Cache Stalling
+# Cycle          86: PC:    16     Instruction: 7000
+# Cycle          87: D-Cache Stalling
+# Cycle          87: PC:    16     Instruction: 7000
+# Cycle          88: D-Cache Stalling
+# Cycle          88: PC:    16     Instruction: 7000
+# Cycle          89: D-Cache Stalling
+# Cycle          89: PC:    16     Instruction: 7000
+# Cycle          90: PC:    16     Instruction: 7000
+# Cycle          91: PC:    16     Instruction: 7000
+# Cycle          92: PC:    16     Instruction: 7000
+# Cycle          93: PC:    16     Instruction: 0223
+# Cycle          94: PC:    18     Instruction: 7000
+# Cycle          95: PC:    18     Instruction: 1113
+# Cycle          96: PC:    20     Instruction: 7000
+# Cycle          97: PC:    20     Instruction: c1fc
+# Cycle          98: PC:    22     Instruction: 7000
+# Cycle          99: PC:    22     Instruction: 7000
+# Cycle         100: PC:    22     Instruction: 7000
+# Cycle         101: PC:    22     Instruction: a110
+# Cycle         102: PC:    14     Instruction: 7000
+# Cycle         103: PC:    14     Instruction: 9120
+# Cycle         104: PC:    16     Instruction: 7000
+# Cycle         105: PC:    16     Instruction: 0223
+# Cycle         106: PC:    18     Instruction: 7000
+# Cycle         107: PC:    18     Instruction: 1113
+# Cycle         108: PC:    20     Instruction: 7000
+# Cycle         109: PC:    20     Instruction: c1fc
+# Cycle         110: PC:    22     Instruction: 7000
+# Cycle         111: PC:    22     Instruction: 7000
+# Cycle         112: PC:    22     Instruction: 7000
+# Cycle         113: PC:    22     Instruction: a110
+# Cycle         114: PC:    14     Instruction: 7000
+# Cycle         115: PC:    14     Instruction: 9120
+# Cycle         116: PC:    16     Instruction: 7000
+# Cycle         117: PC:    16     Instruction: 0223
+# Cycle         118: PC:    18     Instruction: 7000
+# Cycle         119: PC:    18     Instruction: 1113
+# Cycle         120: PC:    20     Instruction: 7000
+# Cycle         121: PC:    20     Instruction: c1fc
+# Cycle         122: PC:    22     Instruction: 7000
+# Cycle         123: PC:    22     Instruction: 7000
+# Cycle         124: PC:    22     Instruction: 7000
+# Cycle         125: PC:    22     Instruction: a110
+# Cycle         126: PC:    14     Instruction: 7000
+# Cycle         127: PC:    14     Instruction: 9120
+# Cycle         128: PC:    16     Instruction: 7000
+# Cycle         129: PC:    16     Instruction: 0223
+# Cycle         130: PC:    18     Instruction: 7000
+# Cycle         131: PC:    18     Instruction: 1113
+# Cycle         132: PC:    20     Instruction: 7000
+# Cycle         133: PC:    20     Instruction: c1fc
+# Cycle         134: PC:    22     Instruction: 7000
+# Cycle         135: PC:    22     Instruction: 7000
+# Cycle         136: PC:    22     Instruction: 7000
+# Cycle         137: PC:    22     Instruction: a110
+# Cycle         138: PC:    14     Instruction: 7000
+# Cycle         139: PC:    14     Instruction: 9120
+# Cycle         140: PC:    16     Instruction: 7000
+# Cycle         141: PC:    16     Instruction: 0223
+# Cycle         142: PC:    18     Instruction: 7000
+# Cycle         143: PC:    18     Instruction: 1113
+# Cycle         144: PC:    20     Instruction: 7000
+# Cycle         145: PC:    20     Instruction: c1fc
+# Cycle         146: PC:    22     Instruction: 7000
+# Cycle         147: PC:    22     Instruction: 7000
+# Cycle         148: PC:    22     Instruction: 7000
+# Cycle         149: PC:    22     Instruction: a110
+# Cycle         150: PC:    14     Instruction: 7000
+# Cycle         151: PC:    14     Instruction: 9120
+# Cycle         152: PC:    16     Instruction: 7000
+# Cycle         153: PC:    16     Instruction: 0223
+# Cycle         154: PC:    18     Instruction: 7000
+# Cycle         155: PC:    18     Instruction: 1113
+# Cycle         156: PC:    20     Instruction: 7000
+# Cycle         157: PC:    20     Instruction: c1fc
+# Cycle         158: PC:    22     Instruction: 7000
+# Cycle         159: PC:    22     Instruction: 7000
+# Cycle         160: PC:    22     Instruction: 7000
+# Cycle         161: PC:    22     Instruction: a110
+# Cycle         162: PC:    14     Instruction: 7000
+# Cycle         163: PC:    14     Instruction: 9120
+# Cycle         164: PC:    16     Instruction: 7000
+# Cycle         165: PC:    16     Instruction: 0223
+# Cycle         166: PC:    18     Instruction: 7000
+# Cycle         167: PC:    18     Instruction: 1113
+# Cycle         168: PC:    20     Instruction: 7000
+# Cycle         169: PC:    20     Instruction: c1fc
+# Cycle         170: PC:    22     Instruction: 7000
+# Cycle         171: PC:    22     Instruction: 7000
+# Cycle         172: PC:    22     Instruction: 7000
+# Cycle         173: PC:    22     Instruction: a110
+# Cycle         174: PC:    14     Instruction: 7000
+# Cycle         175: PC:    14     Instruction: 9120
+# Cycle         176: PC:    16     Instruction: 7000
+# Cycle         177: PC:    16     Instruction: 0223
+# Cycle         178: PC:    18     Instruction: 7000
+# Cycle         179: PC:    18     Instruction: 1113
+# Cycle         180: PC:    20     Instruction: 7000
+# Cycle         181: PC:    20     Instruction: c1fc
+# Cycle         182: PC:    22     Instruction: 7000
+# Cycle         183: PC:    22     Instruction: 7000
+# Cycle         184: PC:    22     Instruction: 7000
+# Cycle         185: PC:    22     Instruction: a110
+# Cycle         186: PC:    24     Instruction: 7000
+# Cycle         187: PC:    24     Instruction: a270
+# Cycle         188: PC:    26     Instruction: 7000
+# Cycle         189: PC:    26     Instruction: a580
+# Cycle         190: PC:    28     Instruction: 7000
+# Cycle         191: PC:    28     Instruction: 8420
+# Cycle         192: PC:    30     Instruction: 7000
+# Cycle         193: PC:    30     Instruction: 0223
+# Cycle         194: PC:    32     Instruction: 7000
+# Cycle         195: PC:    32     Instruction: 7000
+# Cycle         196: PC:    32     Instruction: 7000
+# Cycle         197: I-Cache Stalling
+# Cycle         197: PC:    32     Instruction: 7000
+# Cycle         198: I-Cache Stalling
+# Cycle         198: PC:    32     Instruction: 7000
+# Cycle         199: I-Cache Stalling
+# Cycle         199: PC:    32     Instruction: 7000
+# Cycle         200: I-Cache Stalling
+# Cycle         200: PC:    32     Instruction: 7000
+# Cycle         201: I-Cache Stalling
+# Cycle         201: PC:    32     Instruction: 7000
+# Cycle         202: I-Cache Stalling
+# Cycle         202: PC:    32     Instruction: 7000
+# Cycle         203: I-Cache Stalling
+# Cycle         203: PC:    32     Instruction: 7000
+# Cycle         204: I-Cache Stalling
+# Cycle         204: PC:    32     Instruction: 7000
+# Cycle         205: I-Cache Stalling
+# Cycle         205: PC:    32     Instruction: 7000
+# Cycle         206: I-Cache Stalling
+# Cycle         206: PC:    32     Instruction: 7000
+# Cycle         207: I-Cache Stalling
+# Cycle         207: PC:    32     Instruction: 7000
+# Cycle         208: I-Cache Stalling
+# Cycle         208: PC:    32     Instruction: 7000
+# Cycle         209: PC:    32     Instruction: 9450
+# Cycle         210: PC:    34     Instruction: 7000
+# Cycle         211: PC:    34     Instruction: 0553
+# Cycle         212: PC:    36     Instruction: 7000
+# Cycle         213: PC:    36     Instruction: 1113
+# Cycle         214: PC:    38     Instruction: 7000
+# Cycle         215: PC:    38     Instruction: c1fa
+# Cycle         216: PC:    40     Instruction: 7000
+# Cycle         217: PC:    40     Instruction: 7000
+# Cycle         218: PC:    40     Instruction: 7000
+# Cycle         219: PC:    40     Instruction: a110
+# Cycle         220: PC:    28     Instruction: 7000
+# Cycle         221: PC:    28     Instruction: 8420
+# Cycle         222: PC:    30     Instruction: 7000
+# Cycle         223: PC:    30     Instruction: 0223
+# Cycle         224: PC:    32     Instruction: 7000
+# Cycle         225: PC:    32     Instruction: 7000
+# Cycle         226: PC:    32     Instruction: 7000
+# Cycle         227: PC:    32     Instruction: 9450
+# Cycle         228: PC:    34     Instruction: 7000
+# Cycle         229: PC:    34     Instruction: 0553
+# Cycle         230: PC:    36     Instruction: 7000
+# Cycle         231: PC:    36     Instruction: 1113
+# Cycle         232: PC:    38     Instruction: 7000
+# Cycle         233: PC:    38     Instruction: c1fa
+# Cycle         234: PC:    40     Instruction: 7000
+# Cycle         235: PC:    40     Instruction: 7000
+# Cycle         236: PC:    40     Instruction: 7000
+# Cycle         237: PC:    40     Instruction: a110
+# Cycle         238: PC:    28     Instruction: 7000
+# Cycle         239: PC:    28     Instruction: 8420
+# Cycle         240: PC:    30     Instruction: 7000
+# Cycle         241: PC:    30     Instruction: 0223
+# Cycle         242: PC:    32     Instruction: 7000
+# Cycle         243: PC:    32     Instruction: 7000
+# Cycle         244: PC:    32     Instruction: 7000
+# Cycle         245: PC:    32     Instruction: 9450
+# Cycle         246: PC:    34     Instruction: 7000
+# Cycle         247: PC:    34     Instruction: 0553
+# Cycle         248: PC:    36     Instruction: 7000
+# Cycle         249: PC:    36     Instruction: 1113
+# Cycle         250: PC:    38     Instruction: 7000
+# Cycle         251: PC:    38     Instruction: c1fa
+# Cycle         252: PC:    40     Instruction: 7000
+# Cycle         253: PC:    40     Instruction: 7000
+# Cycle         254: PC:    40     Instruction: 7000
+# Cycle         255: PC:    40     Instruction: a110
+# Cycle         256: PC:    28     Instruction: 7000
+# Cycle         257: PC:    28     Instruction: 8420
+# Cycle         258: PC:    30     Instruction: 7000
+# Cycle         259: PC:    30     Instruction: 0223
+# Cycle         260: PC:    32     Instruction: 7000
+# Cycle         261: PC:    32     Instruction: 7000
+# Cycle         262: PC:    32     Instruction: 7000
+# Cycle         263: PC:    32     Instruction: 9450
+# Cycle         264: PC:    34     Instruction: 7000
+# Cycle         265: PC:    34     Instruction: 0553
+# Cycle         266: PC:    36     Instruction: 7000
+# Cycle         267: PC:    36     Instruction: 1113
+# Cycle         268: PC:    38     Instruction: 7000
+# Cycle         269: PC:    38     Instruction: c1fa
+# Cycle         270: PC:    40     Instruction: 7000
+# Cycle         271: PC:    40     Instruction: 7000
+# Cycle         272: PC:    40     Instruction: 7000
+# Cycle         273: PC:    40     Instruction: a110
+# Cycle         274: PC:    28     Instruction: 7000
+# Cycle         275: PC:    28     Instruction: 8420
+# Cycle         276: PC:    30     Instruction: 7000
+# Cycle         277: PC:    30     Instruction: 0223
+# Cycle         278: PC:    32     Instruction: 7000
+# Cycle         279: PC:    32     Instruction: 7000
+# Cycle         280: PC:    32     Instruction: 7000
+# Cycle         281: PC:    32     Instruction: 9450
+# Cycle         282: PC:    34     Instruction: 7000
+# Cycle         283: PC:    34     Instruction: 0553
+# Cycle         284: PC:    36     Instruction: 7000
+# Cycle         285: PC:    36     Instruction: 1113
+# Cycle         286: PC:    38     Instruction: 7000
+# Cycle         287: PC:    38     Instruction: c1fa
+# Cycle         288: PC:    40     Instruction: 7000
+# Cycle         289: PC:    40     Instruction: 7000
+# Cycle         290: PC:    40     Instruction: 7000
+# Cycle         291: PC:    40     Instruction: a110
+# Cycle         292: PC:    28     Instruction: 7000
+# Cycle         293: PC:    28     Instruction: 8420
+# Cycle         294: PC:    30     Instruction: 7000
+# Cycle         295: PC:    30     Instruction: 0223
+# Cycle         296: PC:    32     Instruction: 7000
+# Cycle         297: PC:    32     Instruction: 7000
+# Cycle         298: PC:    32     Instruction: 7000
+# Cycle         299: PC:    32     Instruction: 9450
+# Cycle         300: PC:    34     Instruction: 7000
+# Cycle         301: PC:    34     Instruction: 0553
+# Cycle         302: PC:    36     Instruction: 7000
+# Cycle         303: PC:    36     Instruction: 1113
+# Cycle         304: PC:    38     Instruction: 7000
+# Cycle         305: PC:    38     Instruction: c1fa
+# Cycle         306: PC:    40     Instruction: 7000
+# Cycle         307: PC:    40     Instruction: 7000
+# Cycle         308: PC:    40     Instruction: 7000
+# Cycle         309: PC:    40     Instruction: a110
+# Cycle         310: PC:    28     Instruction: 7000
+# Cycle         311: PC:    28     Instruction: 8420
+# Cycle         312: PC:    30     Instruction: 7000
+# Cycle         313: PC:    30     Instruction: 0223
+# Cycle         314: PC:    32     Instruction: 7000
+# Cycle         315: PC:    32     Instruction: 7000
+# Cycle         316: PC:    32     Instruction: 7000
+# Cycle         317: PC:    32     Instruction: 9450
+# Cycle         318: PC:    34     Instruction: 7000
+# Cycle         319: PC:    34     Instruction: 0553
+# Cycle         320: PC:    36     Instruction: 7000
+# Cycle         321: PC:    36     Instruction: 1113
+# Cycle         322: PC:    38     Instruction: 7000
+# Cycle         323: PC:    38     Instruction: c1fa
+# Cycle         324: PC:    40     Instruction: 7000
+# Cycle         325: PC:    40     Instruction: 7000
+# Cycle         326: PC:    40     Instruction: 7000
+# Cycle         327: PC:    40     Instruction: a110
+# Cycle         328: PC:    28     Instruction: 7000
+# Cycle         329: PC:    28     Instruction: 8420
+# Cycle         330: PC:    30     Instruction: 7000
+# Cycle         331: PC:    30     Instruction: 0223
+# Cycle         332: PC:    32     Instruction: 7000
+# Cycle         333: PC:    32     Instruction: 7000
+# Cycle         334: PC:    32     Instruction: 7000
+# Cycle         335: PC:    32     Instruction: 9450
+# Cycle         336: PC:    34     Instruction: 7000
+# Cycle         337: PC:    34     Instruction: 0553
+# Cycle         338: PC:    36     Instruction: 7000
+# Cycle         339: PC:    36     Instruction: 1113
+# Cycle         340: PC:    38     Instruction: 7000
+# Cycle         341: PC:    38     Instruction: c1fa
+# Cycle         342: PC:    40     Instruction: 7000
+# Cycle         343: PC:    40     Instruction: 7000
+# Cycle         344: PC:    40     Instruction: 7000
+# Cycle         345: PC:    40     Instruction: a110
+# Cycle         346: PC:    42     Instruction: 7000
+# Cycle         347: PC:    42     Instruction: a580
+# Cycle         348: PC:    44     Instruction: 7000
+# Cycle         349: PC:    44     Instruction: 8450
+# Cycle         350: PC:    46     Instruction: 7000
+# Cycle         351: PC:    46     Instruction: 1041
+# Cycle         352: PC:    48     Instruction: 7000
+# Cycle         353: PC:    48     Instruction: 7000
+# Cycle         354: PC:    48     Instruction: 7000
+# Cycle         355: I-Cache Stalling
+# Cycle         355: PC:    48     Instruction: 7000
+# Cycle         356: I-Cache Stalling
+# Cycle         356: PC:    48     Instruction: 7000
+# Cycle         357: I-Cache Stalling
+# Cycle         357: PC:    48     Instruction: 7000
+# Cycle         358: I-Cache Stalling
+# Cycle         358: PC:    48     Instruction: 7000
+# Cycle         359: I-Cache Stalling
+# Cycle         359: PC:    48     Instruction: 7000
+# Cycle         360: I-Cache Stalling
+# Cycle         360: PC:    48     Instruction: 7000
+# Cycle         361: I-Cache Stalling
+# Cycle         361: PC:    48     Instruction: 7000
+# Cycle         362: I-Cache Stalling
+# Cycle         362: PC:    48     Instruction: 7000
+# Cycle         363: I-Cache Stalling
+# Cycle         363: PC:    48     Instruction: 7000
+# Cycle         364: I-Cache Stalling
+# Cycle         364: PC:    48     Instruction: 7000
+# Cycle         365: I-Cache Stalling
+# Cycle         365: PC:    48     Instruction: 7000
+# Cycle         366: I-Cache Stalling
+# Cycle         366: PC:    48     Instruction: 7000
+# Cycle         367: PC:    48     Instruction: c00d
+# Cycle         368: PC:    50     Instruction: 7000
+# Cycle         369: PC:    50     Instruction: 0553
+# Cycle         370: PC:    52     Instruction: 7000
+# Cycle         371: PC:    52     Instruction: 1113
+# Cycle         372: PC:    54     Instruction: 7000
+# Cycle         373: PC:    54     Instruction: c1fa
+# Cycle         374: PC:    56     Instruction: 7000
+# Cycle         375: PC:    56     Instruction: 7000
+# Cycle         376: PC:    56     Instruction: 7000
+# Cycle         377: PC:    56     Instruction: 8260
+# Cycle         378: PC:    44     Instruction: 7000
+# Cycle         379: PC:    44     Instruction: 8450
+# Cycle         380: PC:    46     Instruction: 7000
+# Cycle         381: PC:    46     Instruction: 1041
+# Cycle         382: PC:    48     Instruction: 7000
+# Cycle         383: PC:    48     Instruction: 7000
+# Cycle         384: PC:    48     Instruction: 7000
+# Cycle         385: PC:    48     Instruction: 7000
+# Cycle         386: PC:    48     Instruction: 7000
+# Cycle         387: PC:    48     Instruction: c00d
+# Cycle         388: PC:    50     Instruction: 7000
+# Cycle         389: PC:    50     Instruction: 0553
+# Cycle         390: PC:    52     Instruction: 7000
+# Cycle         391: PC:    52     Instruction: 1113
+# Cycle         392: PC:    54     Instruction: 7000
+# Cycle         393: PC:    54     Instruction: c1fa
+# Cycle         394: PC:    56     Instruction: 7000
+# Cycle         395: PC:    56     Instruction: 7000
+# Cycle         396: PC:    56     Instruction: 7000
+# Cycle         397: PC:    56     Instruction: 8260
+# Cycle         398: PC:    44     Instruction: 7000
+# Cycle         399: PC:    44     Instruction: 8450
+# Cycle         400: PC:    46     Instruction: 7000
+# Cycle         401: PC:    46     Instruction: 1041
+# Cycle         402: PC:    48     Instruction: 7000
+# Cycle         403: PC:    48     Instruction: 7000
+# Cycle         404: PC:    48     Instruction: 7000
+# Cycle         405: PC:    48     Instruction: 7000
+# Cycle         406: PC:    48     Instruction: 7000
+# Cycle         407: PC:    48     Instruction: c00d
+# Cycle         408: PC:    50     Instruction: 7000
+# Cycle         409: PC:    50     Instruction: 0553
+# Cycle         410: PC:    52     Instruction: 7000
+# Cycle         411: PC:    52     Instruction: 1113
+# Cycle         412: PC:    54     Instruction: 7000
+# Cycle         413: PC:    54     Instruction: c1fa
+# Cycle         414: PC:    56     Instruction: 7000
+# Cycle         415: PC:    56     Instruction: 7000
+# Cycle         416: PC:    56     Instruction: 7000
+# Cycle         417: PC:    56     Instruction: 8260
+# Cycle         418: PC:    44     Instruction: 7000
+# Cycle         419: PC:    44     Instruction: 8450
+# Cycle         420: PC:    46     Instruction: 7000
+# Cycle         421: PC:    46     Instruction: 1041
+# Cycle         422: PC:    48     Instruction: 7000
+# Cycle         423: PC:    48     Instruction: 7000
+# Cycle         424: PC:    48     Instruction: 7000
+# Cycle         425: PC:    48     Instruction: 7000
+# Cycle         426: PC:    48     Instruction: 7000
+# Cycle         427: PC:    48     Instruction: c00d
+# Cycle         428: PC:    50     Instruction: 7000
+# Cycle         429: PC:    50     Instruction: 0553
+# Cycle         430: PC:    52     Instruction: 7000
+# Cycle         431: PC:    52     Instruction: 1113
+# Cycle         432: PC:    54     Instruction: 7000
+# Cycle         433: PC:    54     Instruction: c1fa
+# Cycle         434: PC:    56     Instruction: 7000
+# Cycle         435: PC:    56     Instruction: 7000
+# Cycle         436: PC:    56     Instruction: 7000
+# Cycle         437: PC:    56     Instruction: 8260
+# Cycle         438: PC:    44     Instruction: 7000
+# Cycle         439: PC:    44     Instruction: 8450
+# Cycle         440: PC:    46     Instruction: 7000
+# Cycle         441: PC:    46     Instruction: 1041
+# Cycle         442: PC:    48     Instruction: 7000
+# Cycle         443: PC:    48     Instruction: 7000
+# Cycle         444: PC:    48     Instruction: 7000
+# Cycle         445: PC:    48     Instruction: 7000
+# Cycle         446: PC:    48     Instruction: 7000
+# Cycle         447: PC:    48     Instruction: c00d
+# Cycle         448: PC:    50     Instruction: 7000
+# Cycle         449: PC:    50     Instruction: 0553
+# Cycle         450: PC:    52     Instruction: 7000
+# Cycle         451: PC:    52     Instruction: 1113
+# Cycle         452: PC:    54     Instruction: 7000
+# Cycle         453: PC:    54     Instruction: c1fa
+# Cycle         454: PC:    56     Instruction: 7000
+# Cycle         455: PC:    56     Instruction: 7000
+# Cycle         456: PC:    56     Instruction: 7000
+# Cycle         457: PC:    56     Instruction: 8260
+# Cycle         458: PC:    44     Instruction: 7000
+# Cycle         459: PC:    44     Instruction: 8450
+# Cycle         460: PC:    46     Instruction: 7000
+# Cycle         461: PC:    46     Instruction: 1041
+# Cycle         462: PC:    48     Instruction: 7000
+# Cycle         463: PC:    48     Instruction: 7000
+# Cycle         464: PC:    48     Instruction: 7000
+# Cycle         465: PC:    48     Instruction: 7000
+# Cycle         466: PC:    48     Instruction: 7000
+# Cycle         467: PC:    48     Instruction: c00d
+# Cycle         468: PC:    50     Instruction: 7000
+# Cycle         469: PC:    50     Instruction: 0553
+# Cycle         470: PC:    52     Instruction: 7000
+# Cycle         471: PC:    52     Instruction: 1113
+# Cycle         472: PC:    54     Instruction: 7000
+# Cycle         473: PC:    54     Instruction: c1fa
+# Cycle         474: PC:    56     Instruction: 7000
+# Cycle         475: PC:    56     Instruction: 7000
+# Cycle         476: PC:    56     Instruction: 7000
+# Cycle         477: PC:    56     Instruction: 8260
+# Cycle         478: PC:    44     Instruction: 7000
+# Cycle         479: PC:    44     Instruction: 8450
+# Cycle         480: PC:    46     Instruction: 7000
+# Cycle         481: PC:    46     Instruction: 1041
+# Cycle         482: PC:    48     Instruction: 7000
+# Cycle         483: PC:    48     Instruction: 7000
+# Cycle         484: PC:    48     Instruction: 7000
+# Cycle         485: PC:    48     Instruction: 7000
+# Cycle         486: PC:    48     Instruction: 7000
+# Cycle         487: PC:    48     Instruction: c00d
+# Cycle         488: PC:    50     Instruction: 7000
+# Cycle         489: PC:    50     Instruction: 0553
+# Cycle         490: PC:    52     Instruction: 7000
+# Cycle         491: PC:    52     Instruction: 1113
+# Cycle         492: PC:    54     Instruction: 7000
+# Cycle         493: PC:    54     Instruction: c1fa
+# Cycle         494: PC:    56     Instruction: 7000
+# Cycle         495: PC:    56     Instruction: 7000
+# Cycle         496: PC:    56     Instruction: 7000
+# Cycle         497: PC:    56     Instruction: 8260
+# Cycle         498: PC:    44     Instruction: 7000
+# Cycle         499: PC:    44     Instruction: 8450
+# Cycle         500: PC:    46     Instruction: 7000
+# Cycle         501: PC:    46     Instruction: 1041
+# Cycle         502: PC:    48     Instruction: 7000
+# Cycle         503: PC:    48     Instruction: 7000
+# Cycle         504: PC:    48     Instruction: 7000
+# Cycle         505: PC:    48     Instruction: 7000
+# Cycle         506: PC:    48     Instruction: 7000
+# Cycle         507: PC:    48     Instruction: c00d
+# Cycle         508: PC:    50     Instruction: 7000
+# Cycle         509: PC:    50     Instruction: 0553
+# Cycle         510: PC:    52     Instruction: 7000
+# Cycle         511: PC:    52     Instruction: 1113
+# Cycle         512: PC:    54     Instruction: 7000
+# Cycle         513: PC:    54     Instruction: c1fa
+# Cycle         514: PC:    56     Instruction: 7000
+# Cycle         515: PC:    56     Instruction: 7000
+# Cycle         516: PC:    56     Instruction: 7000
+# Cycle         517: PC:    56     Instruction: 8260
+# Cycle         518: PC:    58     Instruction: 7000
+# Cycle         519: PC:    58     Instruction: a18a
+# Cycle         520: PC:    60     Instruction: 7000
+# Cycle         521: PC:    60     Instruction: 7000
+# Cycle         522: PC:    60     Instruction: 7000
+# Cycle         523: PC:    60     Instruction: 1012
+# Cycle         524: PC:    62     Instruction: 7000
+# Cycle         525: PC:    62     Instruction: c006
+# Cycle         526: PC:    64     Instruction: 7000
+# Cycle         527: PC:    64     Instruction: 7000
+# Cycle         528: PC:    64     Instruction: 7000
+# Cycle         529: I-Cache Stalling
+# Cycle         529: PC:    64     Instruction: 7000
+# Cycle         530: I-Cache Stalling
+# Cycle         530: PC:    64     Instruction: 7000
+# Cycle         531: I-Cache Stalling
+# Cycle         531: PC:    64     Instruction: 7000
+# Cycle         532: I-Cache Stalling
+# Cycle         532: PC:    64     Instruction: 7000
+# Cycle         533: I-Cache Stalling
+# Cycle         533: PC:    64     Instruction: 7000
+# Cycle         534: I-Cache Stalling
+# Cycle         534: PC:    64     Instruction: 7000
+# Cycle         535: I-Cache Stalling
+# Cycle         535: PC:    64     Instruction: 7000
+# Cycle         536: I-Cache Stalling
+# Cycle         536: PC:    64     Instruction: 7000
+# Cycle         537: I-Cache Stalling
+# Cycle         537: PC:    64     Instruction: 7000
+# Cycle         538: I-Cache Stalling
+# Cycle         538: PC:    64     Instruction: 7000
+# Cycle         539: I-Cache Stalling
+# Cycle         539: PC:    64     Instruction: 7000
+# Cycle         540: I-Cache Stalling
+# Cycle         540: PC:    64     Instruction: 7000
+# Cycle         541: PC:    64     Instruction: a680
+# Cycle         542: PC:    66     Instruction: 7000
+# Cycle         543: PC:    66     Instruction: b600
+# Cycle         544: PC:    68     Instruction: 7000
+# Cycle         545: PC:    68     Instruction: 8260
+# Cycle         546: PC:    70     Instruction: 7000
+# Cycle         547: PC:    70     Instruction: a110
+# Cycle         548: PC:    72     Instruction: 7000
+# Cycle         549: PC:    72     Instruction: 7000
+# Cycle         550: PC:    72     Instruction: 7000
+# Cycle         551: PC:    72     Instruction: 1012
+# Cycle         552: PC:    74     Instruction: 7000
+# Cycle         553: PC:    74     Instruction: c205
+# Cycle         554: PC:    76     Instruction: 7000
+# Cycle         555: PC:    76     Instruction: a1ff
+# Cycle         556: PC:    86     Instruction: 7000
+# Cycle         557: PC:    86     Instruction: 7000
+# Cycle         558: PC:    86     Instruction: 7000
+# Cycle         559: I-Cache Stalling
+# Cycle         559: PC:    86     Instruction: 7000
+# Cycle         560: I-Cache Stalling
+# Cycle         560: PC:    86     Instruction: 7000
+# Cycle         561: I-Cache Stalling
+# Cycle         561: PC:    86     Instruction: 7000
+# Cycle         562: I-Cache Stalling
+# Cycle         562: PC:    86     Instruction: 7000
+# Cycle         563: I-Cache Stalling
+# Cycle         563: PC:    86     Instruction: 7000
+# Cycle         564: I-Cache Stalling
+# Cycle         564: PC:    86     Instruction: 7000
+# Cycle         565: I-Cache Stalling
+# Cycle         565: PC:    86     Instruction: 7000
+# Cycle         566: I-Cache Stalling
+# Cycle         566: PC:    86     Instruction: 7000
+# Cycle         567: I-Cache Stalling
+# Cycle         567: PC:    86     Instruction: 7000
+# Cycle         568: I-Cache Stalling
+# Cycle         568: PC:    86     Instruction: 7000
+# Cycle         569: I-Cache Stalling
+# Cycle         569: PC:    86     Instruction: 7000
+# Cycle         570: I-Cache Stalling
+# Cycle         570: PC:    86     Instruction: 7000
+# Cycle         571: PC:    86     Instruction: a1aa
+# Cycle         572: PC:    88     Instruction: 7000
+# Cycle         573: PC:    88     Instruction: b1aa
+# Cycle         574: PC:    90     Instruction: 7000
+# Cycle         575: PC:    90     Instruction: f000
+# Cycle         576: PC:    90     Instruction: 7000
+# Cycle         577: PC:    90     Instruction: f000
+# Cycle         578: PC:    90     Instruction: 7000
+# Cycle         579: PC:    90     Instruction: f000
+# ** Note: $finish    : C:/Users/hshar/OneDrive/Documents/Phase2/project-phase3-testbench.v(164)
+#    Time: 57805 ps  Iteration: 0  Instance: /cpu_ptb
+# 1
+# Break in Module cpu_ptb at C:/Users/hshar/OneDrive/Documents/Phase2/project-phase3-testbench.v line 164
